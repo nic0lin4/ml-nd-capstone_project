@@ -1,5 +1,5 @@
 # README
-This is a capstone project for the udacity machine learning engineer nanodegree course. 
+This is the capstone project for the udacity machine learning engineer nanodegree course. 
 
 
 ### Introduction
