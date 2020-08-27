@@ -8,31 +8,33 @@ By using supervised and unsupervised machine learning techniques I trained a mod
 
 ## Libraries
 The following libraries are used within the project and hence have to be installed upfront: 
-Pandas
-Numpy
-Sklearn
-Matplotlib
-Seaborn
-Pickle
-Pylab
-XGBoost
-LightGBM
+- Pandas
+- Numpy
+- Sklearn
+- Matplotlib
+- Seaborn
+- Pickle
+- Pylab
+- XGBoost
+- LightGBM
 
-Most of them are included within the anaconda edition. Single libraries can be installed with pip typing pip install [packagename] in the terminal.
+Most of them are included within the anaconda edition. Single libraries can be installed with pip via ```pip install [packagename]``` in the terminal.
 
 ## Data
 The data files used in this project are 
-Udacity_AZDIAS_052018.csv: Demographics data for the general population of Germany; 891 211 persons (rows) x 366 features (columns).
-Udacity_CUSTOMERS_052018.csv: Demographics data for customers of a mail-order company; 191 652 persons (rows) x 369 features (columns).
-Udacity_MAILOUT_052018_TRAIN.csv: Demographics data for individuals who were targets of a marketing campaign; 42 982 persons (rows) x 367 (columns).
-Udacity_MAILOUT_052018_TEST.csv: Demographics data for individuals who were targets of a marketing campaign; 42 833 persons (rows) x 366 (columns).
+* *Udacity_AZDIAS_052018.csv*: Demographics data for the general population of Germany; 891 211 persons (rows) x 366 features (columns).
+* *Udacity_CUSTOMERS_052018.csv*: Demographics data for customers of a mail-order company; 191 652 persons (rows) x 369 features (columns).
+* *Udacity_MAILOUT_052018_TRAIN.csv*: Demographics data for individuals who were targets of a marketing campaign; 42 982 persons (rows) x 367 (columns).
+* *Udacity_MAILOUT_052018_TEST.csv*: Demographics data for individuals who were targets of a marketing campaign; 42 833 persons (rows) x 366 (columns).
+
 In addition, there are two metadata files for these datasets:
-DIAS information levels - attributes2017.xlsx
-DIAS Attributes - Values 2017.xlsx
+* *DIAS information levels - attributes2017.xlsx*
+* *DIAS Attributes - Values 2017.xlsx*
+
 It is provided by Arvato Bertelsmann and can be accessed by taking part in the Kaggle competition: https://www.kaggle.com/c/udacity-arvato-identify-customers .
 
 ## Methodology and Results: 
 The project consisted on two steps: 
-Indentification of useful clusters for the demographic data and determine those, who would respond positive with a high probability. Please read the report.pdf file for details. 
+Indentification of useful clusters for the demographic data and determine those, who would respond positive with a high probability. Please read the *report.pdf* file for details. 
 
 
